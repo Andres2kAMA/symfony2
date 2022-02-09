@@ -38,26 +38,26 @@ class Equipo
     }
     public function getFundacion()
     {
-        return $this->nombre;
+        return $this->fundacion;
     }
     public function setFundacion($fundacion)
     {
-        $this->nombre = $fundacion;
+        $this->fundacion = $fundacion;
     }
     public function getSocios()
     {
-        return $this->nombre;
+        return $this->socios;
     }
     public function setSocios($socios)
     {
-        $this->nombre = $socios;
+        $this->socios = $socios;
     }
     public function getCiudad()
     {
-        return $this->nombre;
+        return $this->ciudad;
     }
     public function setCiudad($ciudad)
     {
-        $this->nombre = $ciudad;
+        $this->ciudad = $ciudad;
     }
 }
